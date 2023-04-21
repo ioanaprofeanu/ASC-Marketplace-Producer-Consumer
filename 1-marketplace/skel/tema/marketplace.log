@@ -1,0 +1,1228 @@
+21/04/2023 09:31:53 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:31:53 AM - INFO - Done calling constructor.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; failed to find product.
+21/04/2023 09:31:53 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:31:53 AM - INFO - Done calling constructor.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 2.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 3.
+21/04/2023 09:31:53 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:31:53 AM - INFO - Done calling constructor.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called remove_from_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:31:53 AM - INFO - Called place_order with parameter cart_id = 0.
+21/04/2023 09:31:53 AM - INFO - Done calling place_order; the cart items are: [Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT')].
+21/04/2023 09:31:53 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:31:53 AM - INFO - Done calling constructor.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:31:53 AM - INFO - Done calling constructor.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 2.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 3.
+21/04/2023 09:31:53 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:31:53 AM - INFO - Done calling constructor.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:31:53 AM - INFO - Called register_producer.
+21/04/2023 09:31:53 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:31:53 AM - INFO - Called new_cart.
+21/04/2023 09:31:53 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:31:53 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:31:53 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:31:53 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:33:06 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:33:06 AM - INFO - Done calling constructor.
+21/04/2023 09:33:06 AM - INFO - Called register_producer.
+21/04/2023 09:33:06 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:33:06 AM - INFO - Called register_producer.
+21/04/2023 09:33:06 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:33:06 AM - INFO - Called new_cart.
+21/04/2023 09:33:06 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:33:06 AM - INFO - Called new_cart.
+21/04/2023 09:33:06 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; failed to find product.
+21/04/2023 09:33:06 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:33:06 AM - INFO - Done calling constructor.
+21/04/2023 09:33:06 AM - INFO - Called register_producer.
+21/04/2023 09:33:06 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:33:06 AM - INFO - Called register_producer.
+21/04/2023 09:33:06 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:33:06 AM - INFO - Called new_cart.
+21/04/2023 09:33:06 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:33:06 AM - INFO - Called new_cart.
+21/04/2023 09:33:06 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:33:06 AM - INFO - Called new_cart.
+21/04/2023 09:33:06 AM - INFO - Done calling new_cart; assigned the cart_id = 2.
+21/04/2023 09:33:06 AM - INFO - Called new_cart.
+21/04/2023 09:33:06 AM - INFO - Done calling new_cart; assigned the cart_id = 3.
+21/04/2023 09:33:06 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:33:06 AM - INFO - Done calling constructor.
+21/04/2023 09:33:06 AM - INFO - Called register_producer.
+21/04/2023 09:33:06 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:33:06 AM - INFO - Called register_producer.
+21/04/2023 09:33:06 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:33:06 AM - INFO - Called new_cart.
+21/04/2023 09:33:06 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:33:06 AM - INFO - Called new_cart.
+21/04/2023 09:33:06 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:06 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:06 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:06 AM - INFO - Called remove_from_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:06 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:33:06 AM - INFO - Called place_order with parameter cart_id = 0.
+21/04/2023 09:33:06 AM - INFO - Done calling place_order; the cart items are: [Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT')].
+21/04/2023 09:33:06 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:33:06 AM - INFO - Done calling constructor.
+21/04/2023 09:33:06 AM - INFO - Called register_producer.
+21/04/2023 09:33:06 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:33:07 AM - INFO - Called register_producer.
+21/04/2023 09:33:07 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:33:07 AM - INFO - Called new_cart.
+21/04/2023 09:33:07 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:33:07 AM - INFO - Called new_cart.
+21/04/2023 09:33:07 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:33:07 AM - INFO - Done calling constructor.
+21/04/2023 09:33:07 AM - INFO - Called register_producer.
+21/04/2023 09:33:07 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:33:07 AM - INFO - Called register_producer.
+21/04/2023 09:33:07 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:33:07 AM - INFO - Called new_cart.
+21/04/2023 09:33:07 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:33:07 AM - INFO - Called new_cart.
+21/04/2023 09:33:07 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:33:07 AM - INFO - Called register_producer.
+21/04/2023 09:33:07 AM - INFO - Done calling register_producer; assigned the id = 2.
+21/04/2023 09:33:07 AM - INFO - Called register_producer.
+21/04/2023 09:33:07 AM - INFO - Done calling register_producer; assigned the id = 3.
+21/04/2023 09:33:07 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:33:07 AM - INFO - Done calling constructor.
+21/04/2023 09:33:07 AM - INFO - Called register_producer.
+21/04/2023 09:33:07 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:33:07 AM - INFO - Called register_producer.
+21/04/2023 09:33:07 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:33:07 AM - INFO - Called new_cart.
+21/04/2023 09:33:07 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:33:07 AM - INFO - Called new_cart.
+21/04/2023 09:33:07 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:33:07 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:07 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:07 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:07 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:07 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:33:07 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:33:07 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:33:07 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:47:39 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:47:39 AM - INFO - Done calling constructor.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:47:39 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:47:39 AM - INFO - Done calling constructor.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:47:39 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:47:39 AM - INFO - Done calling constructor.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:47:39 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:47:39 AM - INFO - Done calling constructor.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:47:39 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:47:39 AM - INFO - Done calling constructor.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:47:39 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:47:39 AM - INFO - Done calling constructor.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:47:39 AM - INFO - Called register_producer.
+21/04/2023 09:47:39 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:48:08 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:48:08 AM - INFO - Done calling constructor.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:48:08 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:48:08 AM - INFO - Done calling constructor.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:48:08 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:48:08 AM - INFO - Done calling constructor.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:48:08 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:48:08 AM - INFO - Done calling constructor.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:48:08 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:48:08 AM - INFO - Done calling constructor.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:48:08 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:48:08 AM - INFO - Done calling constructor.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:48:08 AM - INFO - Called register_producer.
+21/04/2023 09:48:08 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:50:33 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:50:33 AM - INFO - Done calling constructor.
+21/04/2023 09:50:33 AM - INFO - Called register_producer.
+21/04/2023 09:50:33 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:50:33 AM - INFO - Called register_producer.
+21/04/2023 09:50:33 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:50:33 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:50:33 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:01 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:01 AM - INFO - Done calling constructor.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:01 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:01 AM - INFO - Done calling constructor.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:01 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:01 AM - INFO - Done calling constructor.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:01 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:01 AM - INFO - Done calling constructor.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:01 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:01 AM - INFO - Done calling constructor.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:01 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:01 AM - INFO - Done calling constructor.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:01 AM - INFO - Called register_producer.
+21/04/2023 09:51:01 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:13 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:13 AM - INFO - Done calling constructor.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; failed to find product.
+21/04/2023 09:51:13 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:13 AM - INFO - Done calling constructor.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 2.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 3.
+21/04/2023 09:51:13 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:13 AM - INFO - Done calling constructor.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called remove_from_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:51:13 AM - INFO - Called place_order with parameter cart_id = 0.
+21/04/2023 09:51:13 AM - INFO - Done calling place_order; the cart items are: [Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT')].
+21/04/2023 09:51:13 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:13 AM - INFO - Done calling constructor.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:13 AM - INFO - Done calling constructor.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 2.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 3.
+21/04/2023 09:51:13 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:51:13 AM - INFO - Done calling constructor.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:51:13 AM - INFO - Called register_producer.
+21/04/2023 09:51:13 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:51:13 AM - INFO - Called new_cart.
+21/04/2023 09:51:13 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:51:13 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:51:13 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:51:13 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:52:15 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:52:15 AM - INFO - Done calling constructor.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; failed to find product.
+21/04/2023 09:52:15 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:52:15 AM - INFO - Done calling constructor.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 2.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 3.
+21/04/2023 09:52:15 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:52:15 AM - INFO - Done calling constructor.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called remove_from_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:52:15 AM - INFO - Called place_order with parameter cart_id = 0.
+21/04/2023 09:52:15 AM - INFO - Done calling place_order; the cart items are: [Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT')].
+21/04/2023 09:52:15 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:52:15 AM - INFO - Done calling constructor.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:52:15 AM - INFO - Done calling constructor.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 2.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 3.
+21/04/2023 09:52:15 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:52:15 AM - INFO - Done calling constructor.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:52:15 AM - INFO - Called register_producer.
+21/04/2023 09:52:15 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:52:15 AM - INFO - Called new_cart.
+21/04/2023 09:52:15 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:52:15 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:52:15 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:52:15 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:56:52 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:56:52 AM - INFO - Done calling constructor.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; failed to find product.
+21/04/2023 09:56:52 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:56:52 AM - INFO - Done calling constructor.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 2.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 3.
+21/04/2023 09:56:52 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:56:52 AM - INFO - Done calling constructor.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called remove_from_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:56:52 AM - INFO - Called place_order with parameter cart_id = 0.
+21/04/2023 09:56:52 AM - INFO - Done calling place_order; the cart items are: [Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT')].
+21/04/2023 09:56:52 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:56:52 AM - INFO - Done calling constructor.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:56:52 AM - INFO - Done calling constructor.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 2.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 3.
+21/04/2023 09:56:52 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:56:52 AM - INFO - Done calling constructor.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:56:52 AM - INFO - Called register_producer.
+21/04/2023 09:56:52 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:56:52 AM - INFO - Called new_cart.
+21/04/2023 09:56:52 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:56:52 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:56:52 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:56:52 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:57:23 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:57:23 AM - INFO - Done calling constructor.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; failed to find product.
+21/04/2023 09:57:23 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:57:23 AM - INFO - Done calling constructor.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 2.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 3.
+21/04/2023 09:57:23 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:57:23 AM - INFO - Done calling constructor.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 0, product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called remove_from_cart with parameters cart_id = 0, product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:57:23 AM - INFO - Called place_order with parameter cart_id = 0.
+21/04/2023 09:57:23 AM - INFO - Done calling place_order; the cart items are: [Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT'), Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT')].
+21/04/2023 09:57:23 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:57:23 AM - INFO - Done calling constructor.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 0 and product = Coffee(name='Brazil', price=5, acidity=4.05, roast_level='LIGHT').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; buffer full, failed to add.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:57:23 AM - INFO - Done calling constructor.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 2.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 3.
+21/04/2023 09:57:23 AM - INFO - Called constructor with queue_size_per_producer = 10.
+21/04/2023 09:57:23 AM - INFO - Done calling constructor.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 0.
+21/04/2023 09:57:23 AM - INFO - Called register_producer.
+21/04/2023 09:57:23 AM - INFO - Done calling register_producer; assigned the id = 1.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 0.
+21/04/2023 09:57:23 AM - INFO - Called new_cart.
+21/04/2023 09:57:23 AM - INFO - Done calling new_cart; assigned the cart_id = 1.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called publish with producer_id = 1 and product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling publish; added the product to the producer's buffer.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called add_to_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling add_to_cart; found and added product to the cart.
+21/04/2023 09:57:23 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling remove_from_cart; removed product and added it back.
+21/04/2023 09:57:23 AM - INFO - Called remove_from_cart with parameters cart_id = 1, product = Tea(name='Wild Cherry', price=3, type='Black').
+21/04/2023 09:57:23 AM - INFO - Done calling remove_from_cart; removed product and added it back.
