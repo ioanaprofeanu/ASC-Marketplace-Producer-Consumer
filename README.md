@@ -70,3 +70,4 @@ Resources
 Git
 -
 * https://github.com/ioanaprofeanu/Marketplace-ASC-Homework1
+* .git: https://drive.google.com/drive/folders/1_eElbvq0_CpgirKFqKQ_EjUZHtgGzJHQ?usp=share_link
