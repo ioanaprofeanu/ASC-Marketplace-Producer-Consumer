@@ -6,18 +6,22 @@ Assignment 1
 March 2021
 """
 from threading import Lock
+import unittest
 import time
 import logging
 from logging.handlers import RotatingFileHandler
+# import product
+# import producer
+# import consumer
 
-logging.basicConfig(
-		handlers=[RotatingFileHandler('./marketplace.log', maxBytes=100000, backupCount=15,
-				mode='a')],
-		level=logging.INFO,
-		format="[%(asctime)s] %(levelname)s %(message)s")
+logger = logging.getLogger('marketplace')
+handler = logging.handlers.RotatingFileHandler('./marketplace.log', mode='a',
+				maxBytes=1024*1024*10, backupCount=10, encoding=None, delay=False)
+handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
 logging.Formatter.converter = time.gmtime
-logger = logging.getLogger()
-
+logger.addHandler(handler)
 
 class Marketplace:
 	"""
@@ -142,8 +146,9 @@ class Marketplace:
 				self.carts_dictionary[cart_id].remove(product_tuple)
 				with self.producers_locks_dictionary[product_tuple[1]]:
 					self.producers_dictionary[product_tuple[1]].append(product)
-				logger.info("Finished calling remove_from_cart; successfully removed the product from the cart and added it to the eproducer's buffer.")
+				logger.info("Finished calling remove_from_cart; successfully removed the product from the cart and added it to the producer's buffer.")
 				return
+		logger.info("Finished calling remove_from_cart; failed to remove product because it was not found.")
 
 	def place_order(self, cart_id):
 		"""
@@ -156,6 +161,130 @@ class Marketplace:
 		order_items = []
 		for product_tuple in self.carts_dictionary[cart_id]:
 			order_items.append(product_tuple[0])
-		logger.info("Finished calling place_order; returning the list of products in the cart.")
+		logger.info("Finished calling place_order; returning the list of products in the cart: %s.", order_items)
 		return order_items
 		
+class TestMarketplace(unittest.TestCase):
+	def setUp(self):
+		self.marketplace = Marketplace(10)
+
+		self.product_1 = product.Coffee(name = "Indonezia", acidity = 5.05, roast_level = "MEDIUM", price = 1)
+		self.product_2 = product.Coffee(name = "Brazil", acidity = 4.05, roast_level = "LIGHT", price = 5)
+		self.product_3 = product.Tea(name = "Wild Cherry", type = "Black", price = 3)
+		
+		self.producer_1 = producer.Producer(products = [[self.product_1, 8, 0.1], [self.product_2, 4, 0.2]], marketplace = self.marketplace, republish_wait_time = 0.3)
+		self.producer_2 = producer.Producer(products = [[self.product_3, 5, 0.1]], marketplace = self.marketplace, republish_wait_time = 0.3)
+		
+		self.consumer_1 = consumer.Consumer(carts = [
+			{
+				"type": "add",
+				"product": self.product_1,
+				"quantity": 3
+			},
+			{
+				"type": "add",
+				"product": self.product_3,
+				"quantity": 5
+			},
+			{
+				"type": "add",
+				"product": self.product_2,
+				"quantity": 1
+			},
+			{
+				"type": "remove",
+				"product": self.product_2,
+				"quantity": 1
+			},
+			{
+				"type": "remove",
+				"product": self.product_1,
+				"quantity": 1
+			}
+		], marketplace = self.marketplace, retry_wait_time = 0.3)
+		
+		self.consumer_2 = consumer.Consumer(carts = [
+			{
+				"type": "add",
+				"product": self.product_3,
+				"quantity": 3
+			}
+		], marketplace = self.marketplace, retry_wait_time = 0.3)
+  
+	def test_register_producer(self):
+		self.assertEqual(len(self.marketplace.producers_dictionary), 2)
+		self.assertEqual(self.producer_1.producer_id, 0)
+		self.assertEqual(self.producer_2.producer_id, 1)
+		self.assertEqual(self.marketplace.register_producer(), 2)
+		self.assertEqual(self.marketplace.register_producer(), 3)
+  
+	def test_publish(self):
+		total_products_producer_1 = self.producer_1.products[0][1] + self.producer_1.products[1][1]
+		for i in range(0, total_products_producer_1):
+			current_product = self.product_1
+			if i > 4:
+				current_product = self.product_2
+			if i < self.marketplace.queue_size_per_producer:
+				self.assertTrue(self.marketplace.publish(self.producer_1.producer_id, current_product))
+				self.assertEqual(len(self.marketplace.producers_dictionary[self.producer_1.producer_id]), i + 1)
+			else:
+				self.assertFalse(self.marketplace.publish(self.producer_1.producer_id, current_product))
+				self.assertEqual(len(self.marketplace.producers_dictionary[self.producer_1.producer_id]), self.marketplace.queue_size_per_producer)
+
+		total_products_producer_2 = self.producer_2.products[0][1]
+		for i in range(0, total_products_producer_2):
+			self.assertTrue(self.marketplace.publish(self.producer_2.producer_id, self.product_3))
+			self.assertEqual(len(self.marketplace.producers_dictionary[self.producer_2.producer_id]), i + 1)
+
+	def test_new_cart(self):
+		self.assertEqual(len(self.marketplace.carts_dictionary), 2)
+		self.assertEqual(self.consumer_1.cart_id, 0)
+		self.assertEqual(self.consumer_2.cart_id, 1)
+		self.assertEqual(self.marketplace.new_cart(), 2)
+		self.assertEqual(self.marketplace.new_cart(), 3)
+	
+	def test_add_to_cart(self):
+		self.marketplace.producers_dictionary[self.producer_2.producer_id] = []
+		total_products_producer_2 = self.producer_2.products[0][1]
+
+		for i in range(0, total_products_producer_2):
+			self.marketplace.publish(self.producer_2.producer_id, self.product_3)
+		for i in range (0, total_products_producer_2):
+			self.assertTrue(self.marketplace.add_to_cart(self.consumer_2.cart_id, self.product_3))
+			self.assertEqual(len(self.marketplace.carts_dictionary[self.consumer_2.cart_id]), i + 1)
+			self.assertEqual(len(self.marketplace.producers_dictionary[self.producer_2.producer_id]), total_products_producer_2 - i - 1)
+		self.assertFalse(self.marketplace.add_to_cart(self.consumer_2.cart_id, self.product_3))
+	
+	def test_remove_from_cart(self):
+		self.marketplace.producers_dictionary[self.producer_2.producer_id] = []
+		total_products_producer_2 = self.producer_2.products[0][1]
+
+		for i in range(0, total_products_producer_2):
+			self.marketplace.publish(self.producer_2.producer_id, self.product_3)
+		for i in range (0, total_products_producer_2):
+			self.assertTrue(self.marketplace.add_to_cart(self.consumer_2.cart_id, self.product_3))
+
+		self.marketplace.remove_from_cart(self.consumer_2.cart_id, self.product_3)
+		self.marketplace.remove_from_cart(self.consumer_2.cart_id, self.product_3)
+		self.assertEqual(len(self.marketplace.carts_dictionary[self.consumer_2.cart_id]), total_products_producer_2 - 2)
+		self.assertEqual(len(self.marketplace.producers_dictionary[self.producer_2.producer_id]), 2)
+
+	def test_place_order(self):
+		self.marketplace.producers_dictionary[self.producer_1.producer_id] = []
+	
+		total_product_1 = 4
+		total_product_2 = 3
+
+		for i in range(0, total_product_1):
+			self.marketplace.publish(self.producer_1.producer_id, self.product_1)
+		for i in range(0, total_product_2):
+			self.marketplace.publish(self.producer_1.producer_id, self.product_2)
+
+		for i in range(0, total_product_1):
+			self.marketplace.add_to_cart(self.consumer_1.cart_id, self.product_1)
+		for i in range(0, total_product_2):
+			self.marketplace.add_to_cart(self.consumer_1.cart_id, self.product_2)
+		self.marketplace.remove_from_cart(self.consumer_1.cart_id, self.product_1)
+		order = self.marketplace.place_order(self.consumer_1.cart_id)
+		self.assertEqual(len(order), 6)
+
