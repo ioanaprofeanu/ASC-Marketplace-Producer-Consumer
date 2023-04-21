@@ -15,14 +15,14 @@ import logging.handlers
 # import producer
 # import consumer
 
-logger = logging.getLogger('marketplace')
-handler = logging.handlers.RotatingFileHandler('./marketplace.log', mode='a',
-                maxBytes=1024*1024*10, backupCount=10, encoding=None, delay=False)
-handler.setLevel(logging.INFO)
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
+logger = logging.getLogger()
+logging.basicConfig(
+    handlers=[logging.handlers.RotatingFileHandler('marketplace.log', mode='a',
+                maxBytes=1024*1024, backupCount=10, encoding=None, delay=False)],
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    datefmt='%d/%m/%Y %I:%M:%S %p')
 logging.Formatter.converter = time.gmtime
-logger.addHandler(handler)
 
 class Marketplace:
     """
@@ -56,7 +56,7 @@ class Marketplace:
         # lock for printing cart
         self.lock_print_cart = Lock()
 
-        logger.info("Finished calling constructor.")
+        logger.info("Done calling constructor.")
 
     def register_producer(self):
         """
@@ -69,8 +69,8 @@ class Marketplace:
             self.producers_dictionary[current_producer_id] = []
             new_producer_lock = Lock()
             self.producers_locks_dictionary[current_producer_id] = new_producer_lock
-            logger.info("Finished calling register_producer; assigned the current \
-                        producer the id = %s.", current_producer_id)
+            logger.info("Done calling register_producer; assigned the id = %s.",
+                        current_producer_id)
             return current_producer_id
 
     def publish(self, producer_id, product):
@@ -89,11 +89,9 @@ class Marketplace:
         with self.producers_locks_dictionary[producer_id]:
             if len(self.producers_dictionary[producer_id]) < self.queue_size_per_producer:
                 self.producers_dictionary[producer_id].append(product)
-                logger.info("Finished calling publish; successfully added the product \
-                            to the producer's buffer.")
+                logger.info("Done calling publish; added the product to the producer's buffer.")
                 return True
-        logger.info("Finished calling publish; the producer's buffer is full, \
-                    failed to add to buffer.")
+        logger.info("Done calling publish; buffer full, failed to add.")
         return False
 
     def new_cart(self):
@@ -106,8 +104,7 @@ class Marketplace:
         with self.lock_new_cart:
             current_cart_id = len(self.carts_dictionary)
             self.carts_dictionary[current_cart_id] = []
-            logger.info("Finished calling new_cart; assigned the current consumer \
-                        the cart_id = %s.", current_cart_id)
+            logger.info("Done calling new_cart; assigned the cart_id = %s.", current_cart_id)
             return current_cart_id
 
     def add_to_cart(self, cart_id, product):
@@ -131,11 +128,9 @@ class Marketplace:
                     new_product_tuple = (product, key)
                     value.remove(product)
                     self.carts_dictionary[cart_id].append(new_product_tuple)
-                    logger.info("Finished calling add_to_cart; successfully found and \
-                                added the product to the cart.")
+                    logger.info("Done calling add_to_cart; found and added product to the cart.")
                     return True
-        logger.info("Finished calling add_to_cart; finding the product in the producers' \
-                    buffers failed.")
+        logger.info("Done calling add_to_cart; failed to find product.")
         return False
 
     def remove_from_cart(self, cart_id, product):
@@ -155,11 +150,9 @@ class Marketplace:
                 self.carts_dictionary[cart_id].remove(product_tuple)
                 with self.producers_locks_dictionary[product_tuple[1]]:
                     self.producers_dictionary[product_tuple[1]].append(product)
-                logger.info("Finished calling remove_from_cart; successfully removed the product \
-                            from the cart and added it to the producer's buffer.")
+                logger.info("Done calling remove_from_cart; removed product and added it back.")
                 return
-        logger.info("Finished calling remove_from_cart; failed to remove product because it \
-                    was not found.")
+        logger.info("Done calling remove_from_cart; product not found.")
 
     def place_order(self, cart_id):
         """
@@ -172,8 +165,7 @@ class Marketplace:
         order_items = []
         for product_tuple in self.carts_dictionary[cart_id]:
             order_items.append(product_tuple[0])
-        logger.info("Finished calling place_order; returning the list of products in \
-                    the cart: %s.", order_items)
+        logger.info("Done calling place_order; the cart items are: %s.", order_items)
         return order_items
 
 class TestMarketplace(unittest.TestCase):
